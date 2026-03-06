@@ -1,0 +1,130 @@
+2026-03-06 14:35:37,124  INFO      === DAILY RESEARCH START ===
+2026-03-06 14:35:54,813  INFO      generated new fontManager
+2026-03-06 14:35:56,354  INFO      Symbols: 36 total
+2026-03-06 14:35:56,355  INFO      Fetching price history …
+2026-03-06 14:35:57,352  ERROR     Failed to get ticker 'SPY' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:57,545  ERROR     Error fetching SPY: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:57,733  ERROR     Failed to get ticker 'QQQ' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:57,952  ERROR     Error fetching QQQ: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:58,137  ERROR     Failed to get ticker 'IWM' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:58,339  ERROR     Error fetching IWM: 'NoneType' object is not subscriptable
+2026-03-06 14:35:58,519  ERROR     Failed to get ticker 'EEM' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:58,743  ERROR     Error fetching EEM: 'NoneType' object is not subscriptable
+2026-03-06 14:35:58,924  ERROR     Failed to get ticker 'GLD' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:59,118  ERROR     Error fetching GLD: 'NoneType' object is not subscriptable
+2026-03-06 14:35:59,293  ERROR     Failed to get ticker 'TLT' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:59,469  ERROR     Error fetching TLT: 'NoneType' object is not subscriptable
+2026-03-06 14:35:59,663  ERROR     Failed to get ticker 'XLF' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:35:59,838  ERROR     Error fetching XLF: 'NoneType' object is not subscriptable
+2026-03-06 14:36:00,003  ERROR     Failed to get ticker 'XLE' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:00,186  ERROR     Error fetching XLE: 'NoneType' object is not subscriptable
+2026-03-06 14:36:00,350  ERROR     Failed to get ticker 'XLK' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:00,551  ERROR     Error fetching XLK: 'NoneType' object is not subscriptable
+2026-03-06 14:36:00,751  ERROR     Failed to get ticker 'XLV' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:00,941  ERROR     Error fetching XLV: 'NoneType' object is not subscriptable
+2026-03-06 14:36:01,109  ERROR     Failed to get ticker 'AAPL' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:01,400  ERROR     Error fetching AAPL: 'NoneType' object is not subscriptable
+2026-03-06 14:36:01,604  ERROR     Failed to get ticker 'MSFT' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:01,773  ERROR     Error fetching MSFT: 'NoneType' object is not subscriptable
+2026-03-06 14:36:01,973  ERROR     Failed to get ticker 'NVDA' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:02,145  ERROR     Error fetching NVDA: 'NoneType' object is not subscriptable
+2026-03-06 14:36:02,314  ERROR     Failed to get ticker 'AMZN' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:02,508  ERROR     Error fetching AMZN: 'NoneType' object is not subscriptable
+2026-03-06 14:36:02,681  ERROR     Failed to get ticker 'GOOGL' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:02,894  ERROR     Error fetching GOOGL: 'NoneType' object is not subscriptable
+2026-03-06 14:36:03,059  ERROR     Failed to get ticker 'META' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:03,233  ERROR     Error fetching META: 'NoneType' object is not subscriptable
+2026-03-06 14:36:03,416  ERROR     Failed to get ticker 'TSLA' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:03,602  ERROR     Error fetching TSLA: 'NoneType' object is not subscriptable
+2026-03-06 14:36:03,799  ERROR     Failed to get ticker 'JPM' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:03,962  ERROR     Error fetching JPM: 'NoneType' object is not subscriptable
+2026-03-06 14:36:04,122  ERROR     Failed to get ticker 'BAC' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:04,271  ERROR     Error fetching BAC: 'NoneType' object is not subscriptable
+2026-03-06 14:36:04,439  ERROR     Failed to get ticker 'XOM' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:04,621  ERROR     Error fetching XOM: 'NoneType' object is not subscriptable
+2026-03-06 14:36:04,778  ERROR     Failed to get ticker 'WMT' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:04,941  ERROR     Error fetching WMT: 'NoneType' object is not subscriptable
+2026-03-06 14:36:05,113  ERROR     Failed to get ticker 'JNJ' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:05,268  ERROR     Error fetching JNJ: 'NoneType' object is not subscriptable
+2026-03-06 14:36:05,433  ERROR     Failed to get ticker 'UNH' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:05,593  ERROR     Error fetching UNH: 'NoneType' object is not subscriptable
+2026-03-06 14:36:05,761  ERROR     Failed to get ticker 'V' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:06,103  ERROR     Error fetching V: 'NoneType' object is not subscriptable
+2026-03-06 14:36:06,263  ERROR     Failed to get ticker 'MA' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:06,417  ERROR     Error fetching MA: 'NoneType' object is not subscriptable
+2026-03-06 14:36:06,595  ERROR     Failed to get ticker 'ASML' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:06,762  ERROR     Error fetching ASML: 'NoneType' object is not subscriptable
+2026-03-06 14:36:06,918  ERROR     Failed to get ticker 'SAP' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:07,059  ERROR     Error fetching SAP: 'NoneType' object is not subscriptable
+2026-03-06 14:36:07,220  ERROR     Failed to get ticker 'NVO' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:07,389  ERROR     Error fetching NVO: 'NoneType' object is not subscriptable
+2026-03-06 14:36:07,549  ERROR     Failed to get ticker 'LVMUY' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:07,728  ERROR     Error fetching LVMUY: 'NoneType' object is not subscriptable
+2026-03-06 14:36:07,899  ERROR     Failed to get ticker 'TTE' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:08,161  ERROR     Error fetching TTE: 'NoneType' object is not subscriptable
+2026-03-06 14:36:08,338  ERROR     Failed to get ticker 'SIE.DE' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:08,520  ERROR     Error fetching SIE.DE: 'NoneType' object is not subscriptable
+2026-03-06 14:36:08,695  ERROR     Failed to get ticker 'ALV.DE' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:09,069  ERROR     Error fetching ALV.DE: 'NoneType' object is not subscriptable
+2026-03-06 14:36:09,227  ERROR     Failed to get ticker 'BNP.PA' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:09,383  ERROR     Error fetching BNP.PA: 'NoneType' object is not subscriptable
+2026-03-06 14:36:09,558  ERROR     Failed to get ticker 'BTC-USD' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:09,702  ERROR     Error fetching BTC-USD: 'NoneType' object is not subscriptable
+2026-03-06 14:36:09,860  ERROR     Failed to get ticker 'ETH-USD' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:10,004  ERROR     Error fetching ETH-USD: 'NoneType' object is not subscriptable
+2026-03-06 14:36:10,172  ERROR     Failed to get ticker 'SOL-USD' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:10,320  ERROR     Error fetching SOL-USD: 'NoneType' object is not subscriptable
+2026-03-06 14:36:10,320  INFO      Fetching macro snapshot …
+2026-03-06 14:36:10,478  ERROR     Failed to get ticker '^VIX' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:10,652  ERROR     Macro error VIX: 'NoneType' object is not subscriptable
+2026-03-06 14:36:10,819  ERROR     Failed to get ticker '^GSPC' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:10,998  ERROR     Macro error SP500: 'NoneType' object is not subscriptable
+2026-03-06 14:36:11,180  ERROR     Failed to get ticker '^IXIC' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:11,348  ERROR     Macro error NASDAQ: 'NoneType' object is not subscriptable
+2026-03-06 14:36:11,516  ERROR     Failed to get ticker '^DJI' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:11,702  ERROR     Macro error DOW: 'NoneType' object is not subscriptable
+2026-03-06 14:36:11,863  ERROR     Failed to get ticker '^STOXX50E' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:12,032  ERROR     Macro error EUROSTOXX: 'NoneType' object is not subscriptable
+2026-03-06 14:36:12,186  ERROR     Failed to get ticker '^TNX' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:12,361  ERROR     Macro error 10Y_YIELD: 'NoneType' object is not subscriptable
+2026-03-06 14:36:12,506  ERROR     Failed to get ticker 'GLD' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:12,662  ERROR     Macro error GOLD: 'NoneType' object is not subscriptable
+2026-03-06 14:36:12,820  ERROR     Failed to get ticker 'USO' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:12,980  ERROR     Macro error OIL: 'NoneType' object is not subscriptable
+2026-03-06 14:36:13,153  ERROR     Failed to get ticker 'DX-Y.NYB' reason: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:13,322  ERROR     Macro error DXY: 'NoneType' object is not subscriptable
+2026-03-06 14:36:13,323  INFO      Fetching fundamentals …
+2026-03-06 14:36:13,487  ERROR     Error fetching fundamentals for SPY: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:13,648  ERROR     Error fetching fundamentals for QQQ: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:13,832  ERROR     Error fetching fundamentals for IWM: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:14,004  ERROR     Error fetching fundamentals for EEM: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:14,193  ERROR     Error fetching fundamentals for GLD: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:14,358  ERROR     Error fetching fundamentals for TLT: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,110  ERROR     Error fetching fundamentals for XLF: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,271  ERROR     Error fetching fundamentals for XLE: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,440  ERROR     Error fetching fundamentals for XLK: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,594  ERROR     Error fetching fundamentals for XLV: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,759  ERROR     Error fetching fundamentals for AAPL: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:15,917  ERROR     Error fetching fundamentals for MSFT: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,081  ERROR     Error fetching fundamentals for NVDA: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,238  ERROR     Error fetching fundamentals for AMZN: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,422  ERROR     Error fetching fundamentals for GOOGL: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,572  ERROR     Error fetching fundamentals for META: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,743  ERROR     Error fetching fundamentals for TSLA: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:16,925  ERROR     Error fetching fundamentals for JPM: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:17,165  ERROR     Error fetching fundamentals for BAC: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:17,344  ERROR     Error fetching fundamentals for XOM: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:17,537  ERROR     Error fetching fundamentals for WMT: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:17,725  ERROR     Error fetching fundamentals for JNJ: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:17,887  ERROR     Error fetching fundamentals for UNH: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:18,046  ERROR     Error fetching fundamentals for V: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:18,205  ERROR     Error fetching fundamentals for MA: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:18,383  ERROR     Error fetching fundamentals for ASML: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:19,287  ERROR     Error fetching fundamentals for SAP: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:19,640  ERROR     Error fetching fundamentals for NVO: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:19,806  ERROR     Error fetching fundamentals for LVMUY: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:19,968  ERROR     Error fetching fundamentals for TTE: Failed to perform, curl: (60) SSL certificate problem: unable to get local issuer certificate. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-03-06 14:36:19,969  INFO      Computing technicals …
+2026-03-06 14:36:19,969  INFO      Generating signals …
+2026-03-06 14:36:19,970  INFO      Writing PDF: C:\Users\pm39013\OneDrive - Allianz\Asztal\Claude code\autotrader\output\reports\research_20260306_1436.pdf
+2026-03-06 14:36:20,294  INFO      === DAILY RESEARCH COMPLETE: C:\Users\pm39013\OneDrive - Allianz\Asztal\Claude code\autotrader\output\reports\research_20260306_1436.pdf ===

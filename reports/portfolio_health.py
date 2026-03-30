@@ -224,7 +224,7 @@ def generate_portfolio_health_report(
         pass
 
     # Sector pie
-    if sector_data:
+    if sector_data is not None and not sector_data.empty:
         story.append(Paragraph("Sector Exposure", section_s))
         try:
             pie_bytes = _sector_pie(sector_data)

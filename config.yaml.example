@@ -1,0 +1,70 @@
+watchlist:
+  etfs:
+    - SPY
+    - QQQ
+    - IWM
+    - EEM
+    - GLD
+    - TLT
+    - XLF
+    - XLE
+    - XLK
+    - XLV
+  us_stocks:
+    - AAPL
+    - MSFT
+    - NVDA
+    - AMZN
+    - GOOGL
+    - META
+    - TSLA
+    - JPM
+    - BAC
+    - XOM
+    - WMT
+    - JNJ
+    - UNH
+    - V
+    - MA
+  eu_stocks:
+    - ASML
+    - SAP
+    - NVO
+    - LVMUY
+    - TTE
+    - SIE.DE
+    - ALV.DE
+    - BNP.PA
+  crypto:
+    - BTC-USD
+    - ETH-USD
+    - SOL-USD
+signals:
+  rsi_buy_threshold: 35
+  rsi_sell_threshold: 70
+  volume_multiplier: 1.2
+  trend_window: 20
+  ma_short: 20
+  ma_long: 50
+  short_interest_threshold: 10
+  short_risk_days: 3
+  squeeze_price_gain_pct: 5
+alerts:
+  email:
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    sender: pailmilan98@gmail.com
+    recipient: pailmilan98@gmail.com
+    app_password: YOUR_GMAIL_APP_PASSWORD
+  price_move_threshold: 3.0
+  stop_loss_pct: 7.0
+  target_pct: 15.0
+portfolio:
+  csv_path: portfolio.csv
+output:
+  reports_dir: output/reports
+  short_reports_dir: output/short_reports
+  charts_dir: output/charts
+data:
+  lookback_period: 6mo
+  short_lookback_days: 90

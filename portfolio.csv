@@ -1,0 +1,7 @@
+﻿symbol,entry_price,shares,entry_date,sector,short_position
+AAPL,175.00,10,2024-01-15,Technology,False
+MSFT,380.00,5,2024-02-01,Technology,False
+NVDA,500.00,4,2024-03-01,Technology,False
+SPY,470.00,3,2024-01-10,ETF,False
+TSLA,200.00,8,2024-04-10,Automotive,True
+GME,15.00,20,2024-05-01,Retail,True

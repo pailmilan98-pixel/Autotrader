@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated output
+output/
+logs/
+
+# Secrets
+config.yaml
+
+# OS
+.DS_Store
+Thumbs.db

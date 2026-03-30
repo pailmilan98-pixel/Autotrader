@@ -234,8 +234,9 @@ def generate_portfolio_health_report(
             pass
 
         sec_rows = [["Sector","Market Value","Weight%"]]
-        total_mv = sum(abs(v) for v in sector_data.values()) or 1
-        for sec, mv in sorted(sector_data.items(), key=lambda x: abs(x[1]), reverse=True):
+        total_mv = sector_data["market_value"].abs().sum() or 1
+        for _, row in sector_data.iterrows():
+            sec, mv = row["sector"], row["market_value"]
             sec_rows.append([
                 sec,
                 f"${mv:,.0f}",

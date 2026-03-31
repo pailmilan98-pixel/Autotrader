@@ -1,4 +1,5 @@
 """Market data fetching via yfinance."""
+import time
 import warnings
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -15,19 +16,36 @@ _SESSION = get_yf_session()
 
 
 def fetch_price_history(symbols: List[str], period: str = "6mo") -> Dict[str, pd.DataFrame]:
-    """Fetch daily OHLCV data for a list of symbols."""
+    """Fetch daily OHLCV data for a list of symbols using a single batch download."""
+    if not symbols:
+        return {}
     data = {}
-    for symbol in symbols:
-        try:
-            ticker = yf.Ticker(symbol, session=_SESSION)
-            hist = ticker.history(period=period, auto_adjust=True)
-            if hist.empty:
-                logger.warning(f"No price data for {symbol}")
-                continue
-            data[symbol] = hist
-            logger.info(f"Fetched {len(hist)} rows for {symbol}")
-        except Exception as e:
-            logger.error(f"Error fetching {symbol}: {e}")
+    try:
+        raw = yf.download(
+            symbols,
+            period=period,
+            auto_adjust=True,
+            progress=False,
+            group_by="ticker",
+        )
+        if len(symbols) == 1:
+            sym = symbols[0]
+            if not raw.empty:
+                data[sym] = raw
+                logger.info(f"Fetched {len(raw)} rows for {sym}")
+        else:
+            for symbol in symbols:
+                try:
+                    df = raw[symbol].dropna(how="all")
+                    if not df.empty:
+                        data[symbol] = df
+                        logger.info(f"Fetched {len(df)} rows for {symbol}")
+                    else:
+                        logger.warning(f"No price data for {symbol}")
+                except KeyError:
+                    logger.warning(f"No price data for {symbol}")
+    except Exception as e:
+        logger.error(f"Batch price download failed: {e}")
     return data
 
 
@@ -48,6 +66,7 @@ def fetch_fundamentals(symbols: List[str]) -> Dict[str, dict]:
     fundamentals = {}
     for symbol in symbols:
         try:
+            time.sleep(0.5)
             info = yf.Ticker(symbol, session=_SESSION).info
             fundamentals[symbol] = {
                 "name":           info.get("longName") or info.get("shortName", symbol),

@@ -58,7 +58,8 @@ def fetch_finviz_short_data(symbol: str) -> dict:
                 return float(s[:-1]) * 1e9
             return float(s)
 
-        sf = data.get("Short Float", "")
+        logger.info(f"Finviz keys for {symbol}: {list(data.keys())[:20]}")
+        sf = data.get("Short Float") or data.get("Short Float %") or data.get("Short Ratio", "")
         if sf:
             try:
                 result["short_float"] = float(sf.replace("%", "").strip())

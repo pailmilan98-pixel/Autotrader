@@ -25,7 +25,7 @@ def load_portfolio(csv_path: str) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-def enrich_portfolio(portfolio: pd.DataFrame) -> pd.DataFrame:
+def enrich_portfolio(portfolio: pd.DataFrame, price_history: dict = None) -> pd.DataFrame:
     """Add current prices and P&L to portfolio DataFrame."""
     from data_fetching.market_data import fetch_current_price
     if portfolio.empty:
@@ -36,7 +36,11 @@ def enrich_portfolio(portfolio: pd.DataFrame) -> pd.DataFrame:
         entry = float(row["entry_price"])
         shares = float(row["shares"])
         is_short = bool(row.get("short_position", False))
-        cur = fetch_current_price(str(row["symbol"])) or entry
+        sym = str(row["symbol"])
+        if price_history and sym in price_history and not price_history[sym].empty:
+            cur = float(price_history[sym]["Close"].iloc[-1])
+        else:
+            cur = fetch_current_price(sym) or entry
         if is_short:
             p = (entry - cur) * shares
             pp = (entry - cur) / entry * 100
@@ -45,7 +49,7 @@ def enrich_portfolio(portfolio: pd.DataFrame) -> pd.DataFrame:
             p = (cur - entry) * shares
             pp = (cur - entry) / entry * 100
             mv = cur * shares
-        cur_prices.append(round(cur, 2))
+        cur_prices.append(round(float(cur), 2))
         pnl.append(round(p, 2))
         pnl_pct.append(round(pp, 2))
         mvals.append(round(mv, 2))

@@ -168,6 +168,8 @@ def generate_portfolio_health_report(
     tp_p = kpis.get("total_pnl_pct", 0) or 0
     vol  = kpis.get("volatility", 0) or 0
     mdd  = kpis.get("max_drawdown", 0) or 0
+    if isinstance(mdd, dict):
+        mdd = min(mdd.values()) if mdd else 0.0
     npos = kpis.get("num_positions", 0) or 0
 
     kpi_rows = [

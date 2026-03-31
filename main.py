@@ -165,7 +165,7 @@ def daily_portfolio_update(config: dict) -> None:
     price_history = fetch_price_history(symbols, period="6mo")
 
     log.info("Enriching portfolio …")
-    portfolio = enrich_portfolio(portfolio)
+    portfolio = enrich_portfolio(portfolio, price_history)
 
     sectors = sector_exposure(portfolio)
     vol = calculate_portfolio_volatility(portfolio, price_history)
